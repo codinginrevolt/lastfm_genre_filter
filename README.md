@@ -4,7 +4,7 @@ filter tracks in your library by genres.
 
 INTRODUCTION
 this program fetches all the top 5 tags for all the tracks in your library and finds which tracks match up with the genres you enter. 
-the output is a table of tracks and the artist, sorted by how many of the genres match the song's tags. The output is saved in output.txt.
+the output is a table of tracks and the artist, sorted by how many of the genres match the song's tags or how many times you've heard the songs. The output is saved in output.txt.
 it runs in terminal right now. i intend to make a website out of this and include some more stuff like being able to add songs to a spotify playlist or something idk
 i'll also probably work on making it run faster
 
