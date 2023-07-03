@@ -13,7 +13,7 @@ i'll also probably work on making it run faster
 
 it will take a long time to work if your library is big. For my 12k tracks library, it took 30 mins. go for a walk and check when you return.
 
-also you need an API key from last.fm to make the code work. the API key is free, just fill out the [last.fm/a](https://www.last.fm/api/account/create) form and then use that api. 
+also you need an API key from last.fm to make the code work. the API key is free, just fill out the [last.fm/api](https://www.last.fm/api/account/create) form and then use that api. 
 you can leave callback URL and application homepage empty.
 
 GETTING STARTED(assuming you have python):
