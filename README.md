@@ -2,8 +2,10 @@ Last.fm Library Genre Filter
 
 filter tracks in your library by genres. 
 
-INTRODUCTION
+INTRODUCTION:
 
+the project started when i was trying to make a punk playlist in Tidal, only to realise I didn't know which songs i've heard are punk. 
+so i went to last.fm to find out and turns out they dont let you sort by genre!! so i wrote some quick code.
 this program fetches all the top 5 tags for all the tracks in your library and finds which tracks match up with the genres you enter. 
 the output is a table of tracks and the artist, sorted by how many of the genres match the song's tags or how many times you've heard the songs. The output is saved in output.txt.
 it runs in terminal right now. i intend to make a website out of this and include some more stuff like being able to add songs to a spotify playlist or something idk
