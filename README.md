@@ -19,16 +19,22 @@ you can leave callback URL and application homepage empty.
 GETTING STARTED(assuming you have python):
 1. make an environment to run it using conda or pip(or you can skip this, im not ur mom):
    terminal command for conda: conda create --name <env_name>
+   
    replace <env_name> with whatever u want
+   
    then activate it with command: conda activate <env_name>
 
    with pip: python -m venv <env_name>
+   
    if venv isn't install, install with: pip install virtualenv
+   
   next activate the environment.
+  
   on windows:   .\myenv\Scripts\activate
+  
   on linux/mac: source myenv/bin/activate
 
-2. download required libraries using the following command in terminal: pip install -r requirements.txt
-3. open run.py with a text editor or code editor. fill in the API_KEY with your api key(line 8). inside quotes that is. so something like API_KEY = "api u got from last.fm"
-4. you should be good to go. run the program in terminal by: python run.py
-5. follow the instructions on the terminal
+3. download required libraries using the following command in terminal: pip install -r requirements.txt
+4. open run.py with a text editor or code editor. fill in the API_KEY with your api key(line 8). inside quotes that is. so something like API_KEY = "api u got from last.fm"
+5. you should be good to go. run the program in terminal by: python run.py
+6. follow the instructions on the terminal
