@@ -13,6 +13,9 @@ i'll also probably work on making it run faster
 
 it will take a long time to work if your library is big. For my 12k tracks library, it took 30 mins. go for a walk and check when you return.
 
+also you need an API key from last.fm to make the code work. the API key is free, just fill out the [last.fm/a](https://www.last.fm/api/account/create) form and then use that api. 
+you can leave callback URL and application homepage empty.
+
 GETTING STARTED(assuming you have python):
 1. make an environment to run it using conda or pip(or you can skip this, im not ur mom):
    terminal command for conda: conda create --name <env_name>
@@ -26,5 +29,6 @@ GETTING STARTED(assuming you have python):
   on linux/mac: source myenv/bin/activate
 
 2. download required libraries using the following command in terminal: pip install -r requirements.txt
-3. you should be good to go. run the program in terminal by: python run.py
-4. follow the instructions on the terminal
+3. open run.py with a text editor or code editor. fill in the API_KEY with your api key(line 8). inside quotes that is. so something like API_KEY = "api u got from last.fm"
+4. you should be good to go. run the program in terminal by: python run.py
+5. follow the instructions on the terminal
